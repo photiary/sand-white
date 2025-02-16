@@ -132,3 +132,13 @@ pnpm add -D @storybook-vue/nuxt
 Storybook 정보 제공 비활성화
 
 - https://storybook.js.org/telemetry
+
+# 🧇 Vuetify
+
+- https://vuetifyjs.com/en/getting-started/installation/#manual-setup
+
+```bash
+pnpm i -D vuetify vite-plugin-vuetify
+
+pnpm i @mdi/font
+```
