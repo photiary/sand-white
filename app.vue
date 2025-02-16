@@ -1,17 +1,12 @@
 <template>
   <div :class="$style.container">
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <nuxt-layout>
+      <nuxt-page />
+    </nuxt-layout>
   </div>
 </template>
 
-<script setup>
-// TODO 참고 후 삭제한다.
-import { useCounterStore } from '@/stores/counter';
-
-const counterStore = useCounterStore();
-console.log('🍍Pinia store. Count:', counterStore.count);
-</script>
+<script setup lang="ts"></script>
 
 <style module lang="scss">
 .container {
