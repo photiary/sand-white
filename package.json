@@ -15,7 +15,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.0.1",
+    "@mdi/font": "^7.4.47",
+    "@nuxt/eslint": "^1.0.1",
     "@pinia/nuxt": "^0.9.0",
     "eslint": "^9.0.0",
     "nuxt": "^3.15.4",
@@ -42,7 +43,9 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sass": "^1.84.0",
     "storybook": "8.4.7",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "vite-plugin-vuetify": "^2.1.0",
+    "vuetify": "^3.7.12"
   },
   "eslintConfig": {
     "extends": [
