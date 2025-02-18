@@ -142,3 +142,9 @@ pnpm i -D vuetify vite-plugin-vuetify
 
 pnpm i @mdi/font
 ```
+
+# 🍗 Github page
+
+```bash
+pnpm add -D gh-pages
+```

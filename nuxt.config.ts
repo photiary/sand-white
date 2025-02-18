@@ -3,6 +3,13 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // eslint-disable-next-line no-undef
 export default defineNuxtConfig({
+  ssr: false,
+  nitro: {
+    preset: 'github-pages',
+  },
+  app: {
+    baseURL: '/sand-white/',
+  },
   modules: [
     '@nuxt/eslint',
     '@pinia/nuxt',
