@@ -15,7 +15,7 @@
         <strong class="me-4">3pm</strong>
         <div>
           <strong>Design Stand Up</strong>
-          <div class="text-caption">Hangouts</div>
+          <div class="text-caption">GitHub Deploy!</div>
         </div>
       </div>
     </v-timeline-item>
