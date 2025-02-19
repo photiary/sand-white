@@ -151,7 +151,7 @@ pnpm i @mdi/font
 pnpm add -D gh-pages
 ```
 
-### 배포
+### gh-pages를 이용한 배포
 
 Github 아바타 아이콘 > Settings > Developer settings > Personal access tokens > Tokens (classic)
 Github 접속 토큰을 생성하여 패스워드로 사용. (90일 만료토큰)
@@ -159,3 +159,9 @@ Github 접속 토큰을 생성하여 패스워드로 사용. (90일 만료토큰
 ```bash
 pnpm deploy:github
 ```
+
+### .yml을 이용한 배포
+
+- https://nuxt.com/deploy/github-pages
+
+`.github/workflows/deploy.yml` 생성
