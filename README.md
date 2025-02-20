@@ -164,4 +164,10 @@ pnpm deploy:github
 
 - https://nuxt.com/deploy/github-pages
 
+- https://docs.github.com/ko/actions/writing-workflows/quickstart#creating-your-first-workflow
+
+- 브랜치 필터 
+
+https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#using-filters
+
 `.github/workflows/deploy.yml` 생성
