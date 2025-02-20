@@ -12,10 +12,10 @@
 
     <v-timeline-item dot-color="teal-lighten-3" size="small">
       <div class="d-flex">
-        <strong class="me-4">3pm</strong>
+        <strong class="me-4">0am</strong>
         <div>
           <strong>Design Stand Up</strong>
-          <div class="text-caption">Hangouts</div>
+          <div class="text-caption">GitHub Deploy!</div>
         </div>
       </div>
     </v-timeline-item>
