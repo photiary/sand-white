@@ -172,7 +172,7 @@ https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-
 
 `.github/workflows/deploy.yml` 생성
 
-# Google 검색 노출
+# 🍥Google 검색 노출
 
 ### Sitemap.xml 생성
 
