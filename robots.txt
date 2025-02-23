@@ -3,6 +3,8 @@ User-agent: *
 Allow: /
 Disallow: 
 
+Disallow: 
+
 Sitemap: https://photiary.github.io/sand-white/sitemap.xml
 Sitemap: https://photiary.github.io/sitemap.xml
 # END nuxt-robots
