@@ -7,14 +7,13 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'github-pages',
   },
-  app: {
-    baseURL: '/sand-white/',
-  },
   modules: [
     '@nuxt/eslint',
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/storybook',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
@@ -41,5 +40,14 @@ export default defineNuxtConfig({
         transformAssetUrls,
       },
     },
+  },
+  site: {
+    url: 'https://photiary.github.io',
+    name: 'My Nuxt Website!',
+  },
+  robots: {
+    allow: ['/'],
+    sitemap: '/sand-white/sitemap.xml',
+    debug: true,
   },
 });

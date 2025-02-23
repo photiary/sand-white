@@ -171,3 +171,39 @@ pnpm deploy:github
 https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#using-filters
 
 `.github/workflows/deploy.yml` 생성
+
+# Google 검색 노출
+
+### Sitemap.xml 생성
+
+- https://nuxtseo.com/docs/sitemap/getting-started/installation
+
+```bash
+pnpm i @nuxtjs/sitema
+```
+
+### Robots
+
+- https://nuxtseo.com/docs/robots/getting-started/installation#setup-module
+
+```bash
+pnpm i @nuxtjs/robots
+
+pnpm gnerate
+```
+
+### Error
+>  ERROR  You are not allowed to generate a robots.txt with a base URL ~
+
+-> `nuxt.config.ts`에 선언된 `baseURL` 제거
+
+```js
+app: {
+  baseURL: '/sand-white/'
+}
+```
+
+### 구글 Robots 규칙
+
+- https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=ko
+
