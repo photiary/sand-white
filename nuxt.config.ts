@@ -7,6 +7,10 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'github-pages',
   },
+  app: {
+    // robots.txt 파일 생성은 '/'로 설정과 커스텀 도메인 설정(구매)이 필요.
+    baseURL: '/sand-white/',
+  },
   modules: [
     '@nuxt/eslint',
     '@pinia/nuxt',
@@ -46,6 +50,8 @@ export default defineNuxtConfig({
     name: 'My Nuxt Website!',
   },
   robots: {
+    // robots.txt 생성은 커스텀 도메인 필요.
+    robotsTxt: false,
     allow: ['/'],
     sitemap: '/sand-white/sitemap.xml',
     debug: true,
