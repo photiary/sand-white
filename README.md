@@ -172,7 +172,9 @@ https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-
 
 `.github/workflows/deploy.yml` 생성
 
-# 🍥Google 검색 노출
+# 🍥 Google 검색 노출
+
+💥커스텀 도메인 설정(구매) 필수, `robots.txt` 사양상 root 패스에 있어야하고, Google Search console 등록시 root 도메인 등록해야한다. 
 
 ### Sitemap.xml 생성
 
@@ -195,7 +197,7 @@ pnpm gnerate
 ### Error
 >  ERROR  You are not allowed to generate a robots.txt with a base URL ~
 
--> `nuxt.config.ts`에 선언된 `baseURL` 제거
+-> `robots.txt`은 root 패스에 존재해야하므로, `nuxt.config.ts`에 선언된 `baseURL` 제거.
 
 ```js
 app: {
