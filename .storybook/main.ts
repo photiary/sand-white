@@ -6,6 +6,8 @@ const config: StorybookConfig = {
     '../components/**/*.stories.@(js|jsx|ts|tsx|mdx)',
   ],
   addons: [
+    '@storybook/addon-onboarding',
+    '@storybook/addon-viewport',
     '@storybook/addon-essentials',
     '@chromatic-com/storybook',
     '@storybook/addon-interactions',
