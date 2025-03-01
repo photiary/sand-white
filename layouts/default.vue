@@ -4,6 +4,7 @@
       <v-container class="flex justify-center gap-8">
         <v-btn prepend-icon="mdi-aurora" to="/">aurora</v-btn>
         <v-btn prepend-icon="mdi-weather-snowy" to="/snowy">snowy</v-btn>
+        <v-btn prepend-icon="mdi-cupcake" to="/cupcake">cupcake</v-btn>
       </v-container>
     </v-app-bar>
     <v-main>
@@ -23,6 +24,6 @@
 
 <style module lang="scss">
 .footer {
-  @apply text-sand-white-200 font-bold;
+  @apply font-bold text-sand-white-200;
 }
 </style>

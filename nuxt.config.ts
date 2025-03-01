@@ -24,6 +24,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
+    '@vueuse/nuxt',
   ],
   devtools: { enabled: true },
   devServer: {
